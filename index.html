@@ -222,7 +222,7 @@ JPlayer (Audio Player)
                     <h2>Rock’n Roll’un Kurtarıcı Melekleri: Greta Van Fleet</h2>
                   </div>
                 </li>
-                  <li data-href="s-ilk-sayi.html"> <img src="assets/img/slider/slider-x.png" alt="" >
+                  <li data-href="http://online.fliphtml5.com/uvxfi/hayi/"> <img src="assets/img/slider/slider-x.png" alt="" >
                   <div class="flex-caption">
                     <h2>White Night İlk Sayı Çıktı!</h2>
                   </div>
@@ -580,7 +580,13 @@ Script Source
    $(document).ready(function(){
     $('.flexslider li').click(function(){
       var href=$(this).data('href');
-      window.location = href;
+      if(href.startsWith('http')){
+        var win = window.open(href, '_blank');
+        win.focus();
+      }else{
+        window.location = href;
+      }
+      
     });
   });
 }
