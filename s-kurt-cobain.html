@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Kurt Cobain | White Night</title>
+
+<!--=================================
+Meta tags
+=================================-->
+<meta name="description" content="">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" />
+
+<!--=================================
+Style Sheets
+=================================-->
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/flexslider.css">
+<link rel="stylesheet" type="text/css" href="assets/css/prettyPhoto.css">
+<link rel="stylesheet" type="text/css" href="assets/css/jquery.vegas.css">
+<link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" href="assets/css/main.css">
+
+<!--<link rel="stylesheet" type="text/css" href="assets/css/blue.css">
+<link rel="stylesheet" type="text/css" href="assets/css/orange.css">
+<link rel="stylesheet" type="text/css" href="assets/css/red.css">
+<link rel="stylesheet" type="text/css" href="assets/css/green.css">
+<link rel="stylesheet" type="text/css" href="assets/css/purple.css">-->
+
+<script async  src="assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script defer  src="assets/js/jquery.js"></script>
+</head>
+<body>
+
+
+<!--=================================
+	Header
+	=================================-->
+<header>
+    <nav class="navbar yamm navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle fa fa-navicon"></button>
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/img/basic/logo.png" alt="logo" style="height: 72px;"/>
+        </a>
+      </div>
+      <div class="nav_wrapper">
+        <div class="nav_scroll">
+          
+          <ul class="nav navbar-nav">
+            <li class="active dropdown"><a href="index.html">Anasayfa <i class="fa fa-caret-right"></i></a>
+            </li>
+             <li><a href="news.html">Haberler</a></li>
+             <li class="dropdown"><a href="albums.html">Albümler <i class="fa fa-caret-right"></i></a>
+            </li>
+            <li class="dropdown"><a href="events.html">Konserler <i class="fa fa-caret-right"></i></a>
+            </li>
+             <li><a href="reviews.html">İncelemeler</a></li>
+              <li><a href="interviews.html">Röportajlar</a></li>
+            <li class="yamm-fw dropdown"><a href="videos.html" >Videolar <i class="fa fa-caret-right"></i></a>
+            </li>
+           
+          </ul>
+        </div>
+        <!--/.nav-collapse --> 
+        
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!--=================================
+Vegas Slider Images
+=================================-->
+
+<ul class="vegas-slides hidden">
+  <li><img data-fade='2000' src="assets/img/BG/bg1.jpg" alt="" /></li>
+  <li><img data-fade='2000' src="assets/img/BG/bg2.jpg" alt="" /></li>
+  <li><img data-fade='2000' src="assets/img/BG/bg3.jpg" alt="" /></li>
+  <li><img data-fade='2000' src="assets/img/BG/bg4.jpg" alt="" /></li>
+</ul>
+
+<!--=================================
+JPlayer (Audio Player)
+=================================-->
+
+<section id="audio-player">
+  <div class="container">
+    <div class="rock-player">
+      <div class="row">
+        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div id="player-instance" class="jp-jplayer"></div>
+              <div class="controls">
+                <div class="jp-prev"></div>
+                <div  class="play-pause jp-play"></div>
+                <div  class="play-pause jp-pause" style="display:none"></div>
+                <div class="jp-next"></div>
+              </div>
+              <!--controls--> 
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+              <div class="player-status">
+                <h5 class="audio-title">Maroon 5 - Moves Like Jagger ft. Christina Aguilera</h5>
+                <div class="audio-timer"><span class="current-time jp-current-time">01:02</span> / <span class="total-time jp-duration">4:05</span></div>
+                <div class="audio-progress">
+                  <div class="jp-seek-bar">
+                    <div class="audio-play-bar jp-play-bar" style="width:20%;"></div>
+                  </div>
+                  <!--jp-seek-bar--> 
+                </div>
+                <!--audio-progress--> 
+              </div>
+              <!--player-status--> 
+            </div>
+            <!--column--> 
+          </div>
+          <!--inner-row--> 
+        </div>
+        <!--column-->
+        
+        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+          <div class="audio-list">
+            <div class="audio-list-icon"></div>
+            <div class="jp-playlist"> 
+              <!--Add Songs In mp3 formate here-->
+              <ul class="hidden playlist-files">
+                <li data-title="Maroon 5 - Moves Like Jagger" 
+                                    	data-artist="ft. Christina" 
+                                        data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"></li>
+                <li data-title="Coldplay - Princess Of China" 
+                                    	data-artist="ft. Rihanna" 
+                                        data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"></li>
+                <li data-title="Lorem Ipsum" 
+                                    	data-artist="ft. Rocker" 
+                                        data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"></li>
+                <li data-title="New Fish!!!" 
+                                    	data-artist="ft. Jailer" 
+                                        data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"></li>
+                <li data-title="I wanna grow" 
+                                    	data-artist="ft. MeDon" 
+                                        data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"></li>
+                <li data-title="do be do" 
+                                    	data-artist="ft. scoby" 
+                                        data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"></li>
+                <li data-title="We aint smart" 
+                                    	data-artist="ft. SomeFool" 
+                                        data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"></li>
+              </ul>
+              <!--Playlist ends-->
+              <h5>Audio Playlist</h5>
+              <div class="audio-track">
+                <ul>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--row--> 
+    </div>
+  </div>
+</section>
+
+
+<div id="ajaxArea">
+    <div class="pageContentArea">
+      <!--=================================
+      bread crums
+      =================================-->
+      <div class="clearfix"></div>
+      <!--=================================
+      Upcoming events
+      =================================-->
+      
+      <section id="blog">
+          <div class="container">
+              <div class="row">
+                  
+      
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                          <article class="latest-post detail">
+                              <img src="assets/img/slider/slider-1.jpg" alt="dummy">
+                              <h2><a href="#">KURT COBAIN: BIR EFSANENIN HAYAT HIKAYESI</a></h2>
+                              <ul>
+                                  <!-- <li><span class="fa fa-clock-o"></span>24 August, 2013</li>
+                                  <li><span class=" fa fa-user"></span>by <span>Admin</span></li>
+                                  <li><span class="fa fa-comment"></span>5 comments</li> -->
+                              </ul>
+
+<p>Kurt Donald Cobain 20 Şubat 1967’de doğmuş ve 5 Nisan 1994’te intihar ederek ölmüş ABD’li şarkıcı-söz yazarı, müzisyen ve sanatçıdır. Nirvana grubunun vokalisti, ritim ve solo gitaristiydi. Cobain, 1985 yılında Krist Novoselic ile birlikte Nirvana’yı kurmuş, ‘Bleach’ isimli ilk albümlerini bağımsız olan plak şirketi Sub Pop’dan 1989 yılında çıkartmışlardır. Records ile imzalanan anlaşma sonrasında, grubun ikinci albümü ‘Nevermind’ 1991 se - nesinde yayınlandı ve “Smells Like Teen Spirit” ile çığır açan bir başarı yakaladılar.</p>
+
+<p>‘Nevermind’ın başarısının ardından Nirvana, X Kuşağı’nın ‘bayrağı önde götüren grubu’ olarak etiketlendi ve Cobain ‘bir neslin sözcüsü’ olarak nitel - endirildi. Hayatının son yıllarında Cobain uyuşturucu bağımlılığı, ünü ve imajının yanı sıra kendisi ve eşi Courtney Love’ı çevreleyen baskılar ile mücadele etti. Ayrıca hastalığı ve mide ağrıları da son yıllarında mücadele ettiği diğer faktörlerdi. Nirvana, sadece ABD sınırları içinde 25 milyon albüm sattı, dünya çapında ise bu rakam 50 milyonu geçti.</p>
+
+<p>Wendy ve Donald Cobain’in oğlu olarak Hoquiam’da dünyaya geldi. Kurt 6 aylıkken Cobain ailesi Aberdeen’e taşındı. Kurt orada büyüdü. Kurt 8 yaşındayken anne ve babası boşandı.Annesine göre Kurt’un bunalım günlerinin başlangıcıydı bu olay. 9 yaşına kadar sadece Beatles dinleyen Kurt, babasının bir plak şirketine üye olmasıyla Led Zeppelin, Black Sabbath ve Kiss gibi grupları dinlemeye başladı. Daha sert ama melodik şeyler arıyordu aslında. 12 yaşında Aberdeen‘da çalan The Melvins grubuna takılmaya başladı, gitar çalmayı öğrendi.<p>
+
+<h3>KURT COBAIN’I CIA MI ÖLDÜRDÜ?</h3>
+<p>John Potash, “Drugs as Weapons Against Us” adlı kitabında, Nirvana’nın 27 yaşındaki hayatını kaybeden solistinin uyuşturucu bağımlısı haline getirildikten sonra ABD istihbarat yetkilileri tarafından öldürüldüğünü öne sürdü.</p>
+<p>The Sun’ın haberine göre yazar, uyuşturucu bağımlısı olan Kurt Cobain’in 1994 yılında kendini vurarak intihar ettiği haberlerine alternatif bir açıklama getirdi. Potash, “Kanıtlar, ABD istihbaratının Cobain’i, eroin kullanımını teşvik etmek için kullandığını gösteriyor” dedi. “Baskı altına alınmış kanıtlar, ABD istihbaratının Cobain’in radikal sol görüşünden ve uyuşturucu kullanmayı bıraktığında üstü kapalı bir şekilde uyuşturucu kullanmamayı teşvik edeceğinden dolayı ölümünü planladığını gösteriyor” şeklinde konuştu. Yazar, uyuşturucu kullanan Cobain’in, uyuşturucunun Amerika’da popüler hale gelmesine yardım ettiğini, ayrıca sol görüşlü oluşunun ABD istihbarat güçlerinin onaylamadığını ve dikkatini çektiğini iddia etti.</p>
+
+<p>Potash, “Bir eroin bağımlısı olan Kurt Cobain bu trendin popüler olmasına yardım ediyordu. Ayık bir Cobain bu trendi tersine çevirebilirdi, aynı zamanda radikal sol görüşleri de etkiliydi” dedi. Daily Star, Cobain’in yanı sıra John Lennon, Jimi Hendrix ve Tupac gibi efsanevi müzisyenlerin de ABD’de sol politikaları yaygınlaştırmalarını önlemek amacıyla CIA’in hedefinde olduğunu iddia edildi. Kurt Cobain’in ölümüyle ilgili daha önce de pek çok komplo teorisi üretildi. Cobain’in kanında bulunan eroin miktarının, bir insan bünyesinin kaldırabileceği miktarın tam üç katı olduğu ve bu kadar eroini alan bir insanın elindeki tüfekle kendini vurmasının imkan ve ihtimali olmadığı öne sürüldü. Cobain’in parmak izlerinin, etrafında bulunan hiçbir eşyanın ve kendini vurmak için kullandığı öne sürülen tüfeğin üstünde yer almadığı da belirtildi.</p>
+
+<p>Yanında bulunan intihar notunun son satırlarının ve mektubun başındaki ‘Boddah’ kelimesinin (Cobain’in çocukken yarattığı hayali arkadaşın ismi) başka bir el tarafından yazılmış olduğu da iddia edildi. Kurt Cobain’in ölümüyle, Nirvana grubu dağıldı. Dave Grohl, Foo Fighters adlı grubu kurdu. Krist Novoselic de Sweet 75 adlı gruba katıldı. 1993 sonu kaydettikleri “MTV Unplugged In New York” ve canlı performanslarından oluşan “From the Muddy Banks of the Wishkah” albümleri grubun hayranlarına buruk elvedası oldu. 4 Mayıs 2015 tarihinde Kurt Cobain’in hayatını belgesel olarak anlatan Montage of Heck filmi ABD’de vizyona girdi. Filmde Cobain’in şarkılarının yanı sıra hikâyeleri, günlükleri, bilinmeyen demoları ve hiç yayınlanmamış müzik kayıtları da yer aldı.</p>
+                              
+                          </article><!--\\latest post-->
+
+                  </div><!--latest news-->
+                  
+                  
+              </div>
+          </div>    
+      </section>
+      <div class="clearfix"></div>
+   </div><!--pageContent-->
+</div><!--ajaxwrap-->    
+
+<!--=================================
+	Footer
+	=================================-->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <ul class="sitemap">
+              <li><a href="index.html">Anasayfa</a></li>
+              <li><a href="news.html">Haberler</a></li>
+              <li><a href="albums.html">Albümler</a></li>
+              <li><a href="events.html">konserler</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <ul class="sitemap">
+              <li><a href="reviews.html">incelemeler</a></li>
+              <li><a href="interviews.html">Röportajlar</a></li>
+              <li><a href="videos.htmk">Videolar</a></li>
+              <li><a href="#">İletişim</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--\\column-->
+      
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <img src="assets/img/basic/logo.png" alt="logo" class="footer-logo"/>
+      </div>
+      <!--\\column-->
+
+    </div>
+    <!--\\row--> 
+  </div>
+  <!--\\container--> 
+</footer>
+
+<!--=================================
+Script Source
+=================================--> 
+
+<script defer  src="assets/js/bootstrap.min.js"></script>
+<script defer  src="assets/js/jquery.easing-1.3.pack.js"></script>
+<script defer  src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script> 
+<script defer  src="assets/js/jquery.mousewheel.min.js"></script> 
+<script defer  src="assets/js/jflickrfeed.min.js"></script> 
+<script defer  src="assets/js/jquery.flexslider-min.js"></script> 
+<script defer  src="assets/js/jquery.carouFredSel-6.2.1-packed.js"></script> 
+<script defer  src="assets/js/tweetie.min.js"></script> 
+<script defer  src="assets/js/jquery.prettyPhoto.js"></script> 
+<script defer  src="assets/jPlayer/jquery.jplayer.min.js"></script> 
+<script defer  src="assets/jPlayer/add-on/jplayer.playlist.min.js"></script> 
+<script defer  src="assets/js/jquery.vegas.min.js"></script> 
+<script defer  src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script> 
+<script defer  src="assets/js/jquery.calendar-widget.js"></script> 
+<script defer  src="assets/js/isotope.js"></script>
+<script defer  src="assets/js/main.js"></script>   
+
+<script>/*Place Your Google Analytics code here*/</script>
+
+</body>
+</html>

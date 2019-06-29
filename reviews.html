@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <title>İncelemeler | White Night</title>
+
+    <!--=================================
+Meta tags
+=================================-->
+    <meta name="description" content="" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta
+      name="viewport"
+      content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no"
+    />
+
+    <!--=================================
+Style Sheets
+=================================-->
+    <link
+      href="http://fonts.googleapis.com/css?family=Oswald:400,700,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto:400,400italic,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/flexslider.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/prettyPhoto.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.vegas.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/blue.css">
+<link rel="stylesheet" type="text/css" href="assets/css/orange.css">
+<link rel="stylesheet" type="text/css" href="assets/css/red.css">
+<link rel="stylesheet" type="text/css" href="assets/css/green.css">
+<link rel="stylesheet" type="text/css" href="assets/css/purple.css">-->
+
+    <script async src="assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script defer src="assets/js/jquery.js"></script>
+  </head>
+  <body>
+    <!--=================================
+	Header
+	=================================-->
+    <header>
+      <div class="social-links">
+        <div class="container"></div>
+      </div>
+      <nav class="navbar yamm navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle fa fa-navicon"></button>
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/basic/logo.png" alt="logo" style="height: 72px;" />
+            </a>
+          </div>
+          <div class="nav_wrapper">
+            <div class="nav_scroll">
+              <ul class="nav navbar-nav">
+                <li class="active dropdown">
+                  <a href="index.html">Anasayfa <i class="fa fa-caret-right"></i></a>
+                </li>
+                <li><a href="news.html">Haberler</a></li>
+                <li class="dropdown">
+                  <a href="albums.html">Albümler <i class="fa fa-caret-right"></i></a>
+                </li>
+                <li class="dropdown">
+                  <a href="events.html">Konserler <i class="fa fa-caret-right"></i></a>
+                </li>
+                <li><a href="reviews.html">İncelemeler</a></li>
+                <li><a href="interviews.html">Röportajlar</a></li>
+                <li class="yamm-fw dropdown">
+                  <a href="videos.html">Videolar <i class="fa fa-caret-right"></i></a>
+                </li>
+              </ul>
+            </div>
+            <!--/.nav-collapse -->
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--=================================
+Vegas Slider Images
+=================================-->
+
+    <ul class="vegas-slides hidden">
+      <li><img data-fade="2000" src="assets/img/BG/bg1.jpg" alt="" /></li>
+      <li><img data-fade="2000" src="assets/img/BG/bg2.jpg" alt="" /></li>
+      <li><img data-fade="2000" src="assets/img/BG/bg3.jpg" alt="" /></li>
+      <li><img data-fade="2000" src="assets/img/BG/bg4.jpg" alt="" /></li>
+    </ul>
+
+    <!--=================================
+JPlayer (Audio Player)
+=================================-->
+
+    <section id="audio-player">
+      <div class="container">
+        <div class="rock-player">
+          <div class="playListTrigger">
+            <a href="#"><i class="fa fa-list"></i></a>
+          </div>
+          <!--triggerPlayList in responsive-->
+          <div class="row">
+            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                  <div id="player-instance" class="jp-jplayer"></div>
+                  <div class="controls">
+                    <div class="jp-prev"></div>
+                    <div class="play-pause jp-play"></div>
+                    <div class="play-pause jp-pause" style="display:none"></div>
+                    <div class="jp-next"></div>
+                  </div>
+                  <!--controls-->
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                  <div class="player-status">
+                    <h5 class="audio-title">Maroon 5 - Moves Like Jagger ft. Christina Aguilera</h5>
+                    <div class="audio-timer">
+                      <span class="current-time jp-current-time">01:02</span> /
+                      <span class="total-time jp-duration">4:05</span>
+                    </div>
+                    <div class="audio-progress">
+                      <div class="jp-seek-bar">
+                        <div class="audio-play-bar jp-play-bar" style="width:20%;"></div>
+                      </div>
+                      <!--jp-seek-bar-->
+                    </div>
+                    <!--audio-progress-->
+                  </div>
+                  <!--player-status-->
+                </div>
+                <!--column-->
+              </div>
+              <!--inner-row-->
+            </div>
+            <!--column-->
+
+            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+              <div class="audio-list">
+                <div class="audio-list-icon"></div>
+                <div class="jp-playlist">
+                  <!--Add Songs In mp3 formate here-->
+                  <ul class="hidden playlist-files">
+                    <li
+                      data-title="Maroon 5 - Moves Like Jagger"
+                      data-artist="ft. Christina"
+                      data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"
+                    ></li>
+                    <li
+                      data-title="Coldplay - Princess Of China"
+                      data-artist="ft. Rihanna"
+                      data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"
+                    ></li>
+                    <li
+                      data-title="Lorem Ipsum"
+                      data-artist="ft. Rocker"
+                      data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"
+                    ></li>
+                    <li
+                      data-title="New Fish!!!"
+                      data-artist="ft. Jailer"
+                      data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"
+                    ></li>
+                    <li
+                      data-title="I wanna grow"
+                      data-artist="ft. MeDon"
+                      data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"
+                    ></li>
+                    <li
+                      data-title="do be do"
+                      data-artist="ft. scoby"
+                      data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"
+                    ></li>
+                    <li
+                      data-title="We aint smart"
+                      data-artist="ft. SomeFool"
+                      data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"
+                    ></li>
+                  </ul>
+                  <!--Playlist ends-->
+                  <h5>Audio Playlist</h5>
+                  <div class="audio-track">
+                    <ul>
+                      <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--row-->
+        </div>
+      </div>
+    </section>
+
+    <div id="ajaxArea">
+      <div class="pageContentArea">
+        <!--=================================
+      bread crums
+      =================================-->
+        <section class="breadcrumb">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <h1>İncelemeler</h1>
+                <h5>Son İncelemeler</h5>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="clearfix"></div>
+
+        <!--=================================
+      Upcoming events
+      =================================-->
+
+        <section id="updates">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="news-feed">
+                  <img src="assets/img/news/1.png" alt="dummy" />
+                  <a href="#">Bir Neslin Üzerinde İz Bırakmış Chester Bennington </a>
+                  <ul>
+                    <li>4 saat önce</li>
+                    <li><span class="fa fa-comment"></span>5 Yorum</li>
+                  </ul>
+                  <p>
+                    Grubun davulcusu Rob Bourdon, bir dönem Irina Shayk ile çıkmıştı. Kendisinin
+                    davul çalmaya başlama hikayesi de oldukça ilginç...
+                  </p>
+                </div>
+                <!--\\latest news-->
+
+                <div class="news-feed">
+                  <img src="assets/img/news/2.jpg" alt="dummy" />
+                  <a href="#">AC/DC Yeni Albüm Geliyor!</a>
+                  <ul>
+                    <li>4 saat önce</li>
+                    <li><span class="fa fa-comment"></span>5 yorum</li>
+                  </ul>
+                  <p>
+                    AC/DC Angus ve Malcolm Young kardeşler tarafından 1973 yılında Sidney’de
+                    kurulmuş Avustralyalı hard rock grubudur...
+                  </p>
+                </div>
+                <!--\\latest news-->
+
+                <div class="news-feed">
+                  <img src="assets/img/news/3.png" alt="dummy" />
+                  <a href="#">Rock’n Roll’un Kurtarıcı Melekleri: Greta Van Fleet</a>
+                  <ul>
+                    <li>4 saat önce</li>
+                    <li><span class="fa fa-comment"></span>1 yorum</li>
+                  </ul>
+                  <p>
+                    Led Zeppelin ile kıyaslanmasıyla tanınan Greta Van Fleet, rock müzikte yeni bir
+                    ses olmayı başardı. 2012’de ABD’nin Michigan eyaletinde kurulmuştur...
+                  </p>
+                </div>
+                <!--\\latest news-->
+
+                <div class="news-feed">
+                  <img src="assets/img/news/4.png" alt="dummy" />
+                  <a href="#">Doug Aldrich: Beyaz Yılanın Zehiri The Dead Daisies</a>
+                  <ul>
+                    <li>10 saat önce</li>
+                    <li><span class="fa fa-comment"></span>3 yorum</li>
+                  </ul>
+                  <p>
+                    Dio, Lion, Hurricane, House of Lords,Bad Moon Rising, Burning Rain gibi
+                    Hard-Rock dünyasının önemli gruplarında çalan bu deli gitarist, adını...
+                  </p>
+                </div>
+                <!--\\latest news-->
+              </div>
+              <!--latest news-->
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--pageContent-->
+    </div>
+    <!--ajaxwrap-->
+    <!--=================================
+
+<!--=================================
+	Footer
+	=================================-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <ul class="sitemap">
+                  <li><a href="index.html">Anasayfa</a></li>
+                  <li><a href="news.html">Haberler</a></li>
+                  <li><a href="albums.html">Albümler</a></li>
+                  <li><a href="events.html">konserler</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <ul class="sitemap">
+                  <li><a href="reviews.html">incelemeler</a></li>
+                  <li><a href="interviews.html">Röportajlar</a></li>
+                  <li><a href="videos.htmk">Videolar</a></li>
+                  <li><a href="#">İletişim</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--\\column-->
+
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <img src="assets/img/basic/logo.png" alt="logo" class="footer-logo" />
+          </div>
+          <!--\\column-->
+        </div>
+        <!--\\row-->
+      </div>
+      <!--\\container-->
+    </footer>
+
+    <!--=================================
+Script Source
+=================================-->
+
+    <script defer src="assets/js/bootstrap.min.js"></script>
+    <script defer src="assets/js/jquery.easing-1.3.pack.js"></script>
+    <script defer src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script defer src="assets/js/jquery.mousewheel.min.js"></script>
+    <script defer src="assets/js/jflickrfeed.min.js"></script>
+    <script defer src="assets/js/jquery.flexslider-min.js"></script>
+    <script defer src="assets/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script defer src="assets/js/tweetie.min.js"></script>
+    <script defer src="assets/js/jquery.prettyPhoto.js"></script>
+    <script defer src="assets/jPlayer/jquery.jplayer.min.js"></script>
+    <script defer src="assets/jPlayer/add-on/jplayer.playlist.min.js"></script>
+    <script defer src="assets/js/jquery.vegas.min.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script defer src="assets/js/jquery.calendar-widget.js"></script>
+    <script defer src="assets/js/isotope.js"></script>
+    <script defer src="assets/js/main.js"></script>
+
+    <script>
+      /*Place Your Google Analytics code here*/
+    </script>
+  </body>
+</html>
